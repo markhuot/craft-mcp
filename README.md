@@ -1,1 +1,2 @@
 # craft-mcp
+foo

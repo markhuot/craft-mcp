@@ -1,0 +1,41 @@
+{
+    "name": "markhuot/craft-mcp",
+    "description": "Craft CMS MCP Plugin",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "mcp"
+    ],
+    "support": {
+        "docs": "https://github.com/markhuot/craft-mcp/blob/master/README.md",
+        "issues": "https://github.com/markhuot/craft-mcp/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Huot",
+            "homepage": "https://github.com/markhuot"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^4.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "markhuot\\craftmcp\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "MCP",
+        "handle": "mcp",
+        "developer": "Mark Huot",
+        "developerUrl": "https://github.com/markhuot",
+        "documentationUrl": "https://github.com/markhuot/craft-mcp/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/markhuot/craft-mcp/master/CHANGELOG.md",
+        "class": "markhuot\\craftmcp\\Plugin"
+    }
+}
